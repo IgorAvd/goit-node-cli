@@ -11,7 +11,7 @@ program.parse();
 
 const options = program.opts();
 console.log("contactsService", contactsService);
-// TODO: рефакторити
+
 const invokeAction = async ({ action, id, ...data }) => {
   switch (action) {
     case "list":
